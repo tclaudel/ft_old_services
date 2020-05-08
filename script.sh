@@ -1,0 +1,1 @@
+utiliser principalement le deploiement pour installer les services

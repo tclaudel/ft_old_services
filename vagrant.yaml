@@ -1,0 +1,8 @@
+vm_name: kmaster
+hostname: kmaster
+kmaster:
+  password: "kmaster"
+  ip: "192.168.56.101"
+knode:
+  password: "knode"
+  ip: "192.168.56.102"
