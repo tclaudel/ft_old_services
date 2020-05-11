@@ -17,6 +17,7 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo cp -i /etc/kubernetes/admin.conf .kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 sudo chown $(id -u):$(id -g) .kube/config
+sudo chmod 755 .kube/config
 
 echo "[3]: add pod system - " $IP
 sudo sysctl net.bridge.bridge-nf-call-iptables=1
