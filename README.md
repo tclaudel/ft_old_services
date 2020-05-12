@@ -23,3 +23,23 @@ Kubernetes : grec timonier ou pilote (cf logo)
 		- image déployée automatiquement sur un vbox
 * en mode cluster : un master et des noeuds esclave
 # Notions
+### Notions et concepts de base
+* **noeuds** (serveurs) : physiques ou virtuels
+	- master ou simple noeud d'exécution
+* **pods** : pierre centrale de K8S
+	 - ensemble cohérent de conteneurs
+	 - un ou plusieurs conteneurs
+	 - une instance de K8S
+* **service** : abstraction des pods
+	 - permet d'éviter la communication par ip (changeante car on est en conteneurs)
+	 - service > ip/port > pods
+	 - service = ip et port fixe
+* **volumes**: persistents ou non
+	 - lieux d'échanges entre pods
+	 - intérieur de pods = non persistent
+	 - extérieur = persistent
+* **deployments** : objets de gestion des déploiments
+	 - création/suppression
+	 - scaling : gestion de paramètres pour la montée en charge (ou réduction)
+* **namespaces** : cluster virtuel (ensemble de services)
+	 - sous ensemble pour cloisonner dans K8S
