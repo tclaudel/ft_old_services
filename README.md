@@ -23,6 +23,3 @@ Le projet consiste à mettre en place une infrastructure de différents services
 * **namespaces** : cluster virtuel (ensemble de services)
 	*  sous ensemble pour cloisonner dans K8S
 # How it works
-```sequence {theme="hand"}
-kubmaster->nubnode
-```
